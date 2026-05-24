@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+  
+  <!-- Background circle -->
+  <path
+      android:fillColor="@color/eco_primary"
+      android:pathData="M60,60m-55,0a55,55 0,1 1,110 0a55,55 0,1 1,-110 0"/>
+  
+  <!-- Leaf shape -->
+  <path
+      android:fillColor="@color/white"
+      android:pathData="M45,35c-8,0 -15,6 -15,15c0,12 10,20 15,25c5,-5 15,-13 15,-25c0,-9 -7,-15 -15,-15z"/>
+  
+  <!-- Leaf vein -->
+  <path
+      android:fillColor="@color/eco_primary"
+      android:pathData="M45,40l0,25"/>
+  
+  <!-- House shape -->
+  <path
+      android:fillColor="@color/white"
+      android:pathData="M65,45l10,8v20h-8v-12h-4v12h-8v-20z"/>
+  
+  <!-- Roof -->
+  <path
+      android:fillColor="@color/eco_secondary"
+      android:pathData="M60,40l15,12h-30z"/>
+  
+</vector>

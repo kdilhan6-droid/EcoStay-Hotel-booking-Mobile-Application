@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- DILHAN'S UNIQUE HORIZONTAL ROOM CARD -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    android:background="@color/white"
+    android:layout_marginBottom="8dp"
+    android:elevation="2dp">
+
+    <!-- LEFT SIDE - Room Details -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginEnd="12dp">
+
+        <TextView
+            android:id="@+id/room_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Summit Explorer Lodge"
+            android:textColor="@color/eco_primary"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/room_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$180/night"
+            android:textColor="@color/eco_accent"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/room_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cliff-edge location, Extreme views"
+            android:textColor="@color/gray_600"
+            android:textSize="12sp"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/book_button"
+            android:layout_width="120dp"
+            android:layout_height="36dp"
+            android:text="Book Adventure"
+            android:textSize="11sp"
+            android:backgroundTint="@color/eco_primary"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <!-- RIGHT SIDE - Room Image -->
+    <ImageView
+        android:id="@+id/room_image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@color/eco_secondary"
+        android:scaleType="centerCrop" />
+
+</LinearLayout>

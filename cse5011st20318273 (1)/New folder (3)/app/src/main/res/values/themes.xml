@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.EcoStayRetreat" parent="Theme.Material3.DayNight">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/eco_primary</item>
+        <item name="colorPrimaryVariant">@color/eco_primary_dark</item>
+        <item name="colorOnPrimary">@color/eco_on_primary</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/eco_secondary</item>
+        <item name="colorSecondaryVariant">@color/eco_secondary</item>
+        <item name="colorOnSecondary">@color/eco_on_secondary</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="colorSurface">@color/eco_surface</item>
+        <item name="colorOnSurface">@color/eco_on_surface</item>
+        <item name="android:colorBackground">@color/eco_background</item>
+        <item name="colorOnBackground">@color/eco_on_background</item>
+        <item name="colorError">@color/eco_error</item>
+        <item name="colorOnError">@color/eco_on_error</item>
+    </style>
+    
+    <style name="Theme.EcoStayRetreat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    
+    <style name="Theme.EcoStayRetreat.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    
+    <style name="Theme.EcoStayRetreat.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EcoStay Retreat</string>
+    <string name="login">Enter the Wild</string>
+    <string name="register">Join Adventure</string>
+    <string name="email">Explorer Email</string>
+    <string name="password">Secret Code</string>
+    <string name="confirm_password">Confirm Secret</string>
+    <string name="full_name">Adventurer Name</string>
+    <string name="phone_number">Contact Number</string>
+    <string name="welcome_back">Ready for Adventure?</string>
+    <string name="create_account">Become an Explorer</string>
+    <string name="forgot_password">Lost Your Code?</string>
+    <string name="already_have_account">Already have an account? Login</string>
+    <string name="dont_have_account">Don\'t have an account? Register</string>
+    
+    <!-- Main Navigation -->
+    <string name="rooms">Rooms</string>
+    <string name="activities">Activities</string>
+    <string name="nature_reserves">Nature Reserves</string>
+    <string name="profile">Profile</string>
+    
+    <!-- Room Booking -->
+    <string name="book_room">Book Room</string>
+    <string name="check_in_date">Check-in Date</string>
+    <string name="check_out_date">Check-out Date</string>
+    <string name="guests">Guests</string>
+    <string name="room_type">Room Type</string>
+    <string name="price_per_night">Price per night</string>
+    <string name="book_now">Book Now</string>
+    <string name="filter_rooms">Filter Rooms</string>
+    <string name="mountain_view">Mountain View</string>
+    <string name="eco_pod">Eco Pod</string>
+    <string name="tree_house">Tree House</string>
+    <string name="lakeside_cabin">Lakeside Cabin</string>
+    
+    <!-- Activities -->
+    <string name="reserve_activity">Reserve Activity</string>
+    <string name="guided_hike">Guided Nature Hike</string>
+    <string name="eco_tour">Eco Tour</string>
+    <string name="sustainability_workshop">Sustainability Workshop</string>
+    <string name="bird_watching">Bird Watching</string>
+    <string name="activity_date">Activity Date</string>
+    <string name="activity_time">Time</string>
+    <string name="reserve_now">Reserve Now</string>
+    
+    <!-- Profile -->
+    <string name="edit_profile">Edit Profile</string>
+    <string name="travel_preferences">Travel Preferences</string>
+    <string name="booking_history">Booking History</string>
+    <string name="notifications">Notifications</string>
+    <string name="logout">Logout</string>
+    <string name="save_changes">Save Changes</string>
+    
+    <!-- Nature Reserves -->
+    <string name="green_initiatives">Green Initiatives</string>
+    <string name="local_wildlife">Local Wildlife</string>
+    <string name="conservation_efforts">Conservation Efforts</string>
+    <string name="sustainability_practices">Sustainability Practices</string>
+    
+    <!-- Common -->
+    <string name="loading">Loading...</string>
+    <string name="error_occurred">An error occurred</string>
+    <string name="success">Success!</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+    <string name="search">Search</string>
+    <string name="filter">Filter</string>
+    <string name="sort_by_price">Sort by Price</string>
+    <string name="available">Available</string>
+    <string name="unavailable">Unavailable</string>
+</resources>

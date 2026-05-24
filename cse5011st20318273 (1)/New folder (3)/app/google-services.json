@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "877395512571",
+    "project_id": "ecostay-adventure-dilhan",
+    "storage_bucket": "ecostay-adventure-dilhan.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:877395512571:android:f317e7929aca4f60b3745e",
+        "android_client_info": {
+          "package_name": "com.ecostay.retreat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmssZbWX7J6rK6ELAYvcmyVph3yGQyLjk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

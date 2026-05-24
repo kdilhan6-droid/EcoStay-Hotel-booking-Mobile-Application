@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- DILHAN'S UNIQUE NATURE BUTTON LAYOUT -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/eco_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🌲 Mountain Wilderness Areas"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/eco_primary"
+            android:gravity="center"
+            android:layout_marginBottom="24dp" />
+
+        <!-- VERTICAL BUTTON STACK -->
+        <Button
+            android:id="@+id/alpineButton"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="🏔️ Alpine Wilderness Reserve\n📍 High altitude ecosystem protection"
+            android:backgroundTint="@color/eco_primary"
+            android:textColor="@color/white"
+            android:layout_marginBottom="12dp"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/forestButton"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="🌲 Ancient Forest Preserve\n📍 Old growth tree conservation"
+            android:backgroundTint="@color/eco_secondary"
+            android:textColor="@color/white"
+            android:layout_marginBottom="12dp"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/glacierButton"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="❄️ Glacier National Park\n📍 Ice formation research area"
+            android:backgroundTint="@color/eco_accent"
+            android:textColor="@color/white"
+            android:layout_marginBottom="12dp"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/wildlifeButton"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="🦅 Wildlife Sanctuary\n📍 Endangered species habitat"
+            android:backgroundTint="@color/eco_tertiary"
+            android:textColor="@color/white"
+            android:layout_marginBottom="12dp"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/canyonButton"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="🏜️ Desert Canyon Reserve\n📍 Geological formation study"
+            android:backgroundTint="@color/accent_orange"
+            android:textColor="@color/white"
+            android:layout_marginBottom="12dp"
+            android:gravity="center" />
+
+        <!-- INFO SECTION -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🌿 Conservation Impact"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/eco_primary"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• 50,000+ acres protected\n• 200+ species conserved\n• 15 research stations active\n• Carbon offset: 10,000 tons/year"
+            android:textColor="@color/gray_600"
+            android:textSize="14sp"
+            android:lineSpacingExtra="4dp" />
+
+    </LinearLayout>
+
+</ScrollView>
